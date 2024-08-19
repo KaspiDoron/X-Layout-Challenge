@@ -50,7 +50,7 @@ You can simply double-click on the index.html file or use a local server to view
 *Adding Posts 📝*: Add or remove posts by editing the corresponding HTML elements in the index.html file.
 
    ```bash
-twitter-like-profile/
+X-like-profile/
 │
 ├── css/
 │   ├── general.css          # General styles applied across the page
@@ -64,6 +64,7 @@ twitter-like-profile/
 ├── README.md                # Project documentation (this file)
 └── scripts/
     ├── script.js            # JavaScript file for additional interactivity (if any)
+```
 
 ## 🤝 Contributing
 
