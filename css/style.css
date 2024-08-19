@@ -1,0 +1,1009 @@
+/***************************/
+/* NAV SECTION */
+/***************************/
+.section-nav {
+  padding: 0.2rem 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.nav {
+  width: 90%;
+}
+
+.nav-logo-img {
+  height: 3rem;
+  width: 3em;
+}
+
+.nav-logo:link,
+.nav-logo:visited {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  border-radius: 100rem;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.nav-logo:hover,
+.nav-logo:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.links-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+  margin-bottom: 3.2rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 2.1rem;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.nav-link span,
+.nav-link span {
+  transition: all 0.2s;
+  padding: 1.2rem 1.6rem;
+  padding-right: 2.4rem;
+  border-radius: 150rem;
+}
+
+.nav-link span:hover,
+.nav-link span:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.nav-icon {
+  margin-right: 1.4rem;
+  height: 3.2rem;
+  max-width: 3.2em;
+  transform: translateY(0.8rem);
+  --ionicon-stroke-width: 4rem;
+}
+
+.post-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-btn:link,
+.post-btn:visited {
+  text-decoration: none;
+  border-radius: 150rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  background-color: #1d9bf0;
+  margin-left: 0.8rem;
+  padding: 1.8rem 0;
+  width: 95%;
+  transition: all 0.2s;
+}
+
+.post-btn:hover,
+.post-btn:active {
+  background-color: #166da7;
+}
+
+.user-icon {
+  color: #fff;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+/***************************/
+/* CONTENT SECTION */
+/***************************/
+.section-content {
+  justify-self: start;
+  align-self: start;
+
+  min-width: 100%;
+  min-height: 100vh;
+  border-right: 1px solid #4a4e51;
+  border-left: 1px solid #4a4e51;
+  position: relative;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  padding-left: 1.2rem;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+}
+
+.header-name {
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.posts-num {
+  font-size: 1.4rem;
+  color: #797d80;
+}
+
+.back-arrow:link,
+.back-arrow:visited {
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 150%;
+  transition: all 0.2s;
+}
+
+.back-arrow:hover,
+.back-arrow:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.banner {
+  display: block;
+}
+
+.logo-img {
+  max-width: 13.5rem;
+  max-height: 13.5rem;
+  border-radius: 1rem;
+  border: 0.4rem solid #000;
+}
+
+.logo:link,
+.logo:visited {
+  max-width: 13.5rem;
+  max-height: 13.5rem;
+  position: absolute;
+  top: 18.5rem;
+  left: 1.5rem;
+
+  transition: all 0.2s;
+}
+
+.logo:hover,
+.logo:active {
+  filter: brightness(80%);
+}
+
+.top-actions {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1.2rem 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.options-btn:link,
+.options-btn:visited {
+  color: #fff;
+  padding: 0.6rem 0.7rem;
+  border-radius: 150%;
+  border: 0.05px solid #fff;
+  border-color: rgb(83, 100, 113);
+  transition: all 0.2s;
+}
+
+.options-btn:hover,
+.options-btn:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.notify-btn:link,
+.notify-btn:visited {
+  color: #fff;
+  padding: 0.6rem 0.8rem;
+  border-radius: 150%;
+  border: 0.05px solid #fff;
+  border-color: rgb(83, 100, 113);
+  transition: all 0.2s;
+
+  position: relative;
+}
+
+.notify-btn:hover,
+.notify-btn:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.plus-icon {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 150%;
+  background-color: #000;
+}
+
+.follow-btn:link,
+.follow-btn:visited {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 0.9rem 2rem;
+  border-radius: 150rem;
+  border: 0.05px solid #fff;
+  border-color: rgb(83, 100, 113);
+  transition: all 0.2s;
+
+  position: relative;
+}
+
+.follow-btn::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "Unfollow";
+  opacity: 0%;
+  color: #f4212e;
+  background-color: #190305;
+  border: 0.05px solid #67070f;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 150rem;
+  padding: 0.9rem 2rem;
+  width: 65%;
+  transition: all 0.1s;
+
+  position: absolute;
+  top: -1px;
+  left: -2px;
+}
+
+.follow-btn:hover::after,
+.follow-btn:active::after {
+  opacity: 100%;
+}
+
+.user-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  margin: 0 1.8rem;
+}
+
+.main-user {
+  gap: 0.6rem;
+}
+
+.main-name {
+  font-size: 2.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.bio-text .user-loc-img {
+  width: 3%;
+}
+
+.bio-text {
+  font-size: 1.6rem;
+}
+
+.bio-text-link:link,
+.bio-text-link:visited {
+  color: #1d9bf0;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.bio-text-link:hover,
+.bio-text-link:active {
+  text-decoration: underline;
+}
+
+.bio {
+  display: grid;
+  width: 80%;
+  font-size: 1.6em;
+  grid-template-columns: 4fr 3fr 3fr;
+  row-gap: 0.4rem;
+  color: #797d80;
+}
+
+.bio-user-type {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.icon-bio {
+  color: #797d80;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.bio-user-loc {
+  display: flex;
+  align-items: center;
+}
+
+.user-loc-img {
+  width: 13%;
+}
+
+.bio-user-link {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  width: 77%;
+}
+
+.bio-user-link:link,
+.bio-user-link:visited {
+  color: #1d9bf0;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.bio-user-link:hover,
+.bio-user-link:active {
+  text-decoration: underline;
+}
+
+.icon-link {
+  transform: rotate(135deg);
+}
+
+.bio-user-date {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.followers-following {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.followers-following-btn:link,
+.followers-following-btn:visited {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.followers-following-btn:hover,
+.followers-following-btn:active {
+  text-decoration: underline;
+}
+
+.follow-text {
+  color: #797d80;
+  font-weight: 400;
+}
+
+.content-bottom-text {
+  color: #797d80;
+  font-size: 1.3rem;
+}
+
+.posts-replies-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 2.2rem;
+  border-bottom: 1px solid #4a4e51;
+}
+
+.nav-content-lnk {
+  padding: 1.6rem 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  color: #797d80;
+  width: 100%;
+  font-weight: 600;
+}
+
+.nav-content-lnk span {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-content-lnk:link,
+.nav-content-lnk:visited {
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.nav-content-lnk:hover,
+.nav-content-lnk:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.posts {
+  color: #fff;
+  font-weight: 800;
+}
+
+.posts span {
+  position: relative;
+}
+
+.posts span::after {
+  content: "";
+  position: absolute;
+  top: 2.6rem;
+  height: 0.4rem;
+  width: 6rem;
+  border-radius: 150rem;
+  background-color: #1d9bf0;
+}
+
+/* TWEET */
+.pinned-tweet {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tweet {
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.tweet:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.pinned {
+  display: flex;
+  align-items: center;
+  justify-items: start;
+  margin-left: 4.8rem;
+  font-size: 1.3rem;
+  color: #797d80;
+  font-weight: 500;
+  gap: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.icon-pinned {
+  transform: rotate(-45deg);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.tweet-logo-content {
+  padding: 0.4rem 1.6rem;
+  padding-bottom: 0;
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.tweet-logo-lnk:link,
+.tweet-logo-lnk:visited {
+  display: inline-block;
+  width: 7%;
+  height: 7%;
+}
+
+.tweet-logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+}
+
+.tweet-content {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.2rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tweet-user-header {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.tweet-user-name-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.tweet-user-name:link,
+.tweet-user-name:visited {
+  font-size: 1.4rem;
+  transition: all 0.2s;
+}
+
+.tweet-user-name:hover,
+.tweet-user-name:active {
+  text-decoration: underline;
+}
+
+.tweet-user-id:link,
+.tweet-user-id:visited {
+  text-decoration: none;
+}
+
+.tweet-date:link,
+.tweet-date:visited {
+  color: #797d80;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.tweet-date:hover,
+.tweet-date:active {
+  text-decoration: underline;
+}
+
+.tweet-content-text {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+.more-btn {
+  position: absolute;
+  top: 20%;
+  right: 2rem;
+  color: #797d80;
+}
+
+.more-icon {
+  padding: 1rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 100%;
+  transition: all 0.2s;
+}
+
+.more-icon:hover {
+  background-color: #122835;
+  color: #1d9bf0;
+}
+
+.social-row {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 6rem;
+  padding-bottom: 0.4rem;
+  padding-right: 2rem;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-btn span {
+  font-size: 1.35rem;
+  font-family: "Work Sans", sans-serif;
+  transform: translate(-0.5rem, 0.15rem);
+}
+
+.social-btn:link,
+.social-btn:visited {
+  text-decoration: none;
+  color: #797d80;
+}
+
+.social-icon {
+  padding: 0.8rem;
+  border-radius: 100%;
+  --ionicon-stroke-width: 4rem;
+}
+
+/* Comments */
+.comments:link,
+.comments:visited {
+  transition: all 0.2s;
+}
+
+.comments:hover,
+.comments:active {
+  color: #1d9bf0;
+}
+
+.comments:link .social-icon {
+  transition: all 0.2s;
+}
+
+.comments:hover .social-icon {
+  background-color: #122835;
+}
+
+.social-comments {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+/* Reposts */
+.reposts:link,
+.reposts:visited {
+  transition: all 0.2s;
+}
+
+.reposts:hover,
+.reposts:active {
+  color: #00ba7c;
+}
+
+.reposts:link .social-icon {
+  transition: all 0.2s;
+}
+
+.reposts:hover .social-icon {
+  background-color: #092019;
+}
+
+.social-reposts {
+  height: 2.2rem;
+  width: 2.2rem;
+  padding: 0.6rem;
+}
+
+/* Likes */
+.likes:link,
+.likes:visited {
+  transition: all 0.2s;
+}
+
+.likes:hover,
+.likes:active {
+  color: #f91880;
+}
+
+.likes:link .social-icon {
+  transition: all 0.2s;
+}
+
+.likes:hover .social-icon {
+  background-color: #200914;
+}
+
+.social-likes {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+/* Views */
+.views:link,
+.views:visited {
+  transition: all 0.2s;
+}
+
+.views:hover,
+.views:active {
+  color: #1d9bf0;
+}
+
+.views:link .social-icon {
+  transition: all 0.2s;
+}
+
+.views:hover .social-icon {
+  background-color: #122835;
+}
+
+.social-views {
+  margin-right: 0.1rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  --ionicon-stroke-width: 0;
+}
+
+/* Save & Share */
+.save-share {
+  color: #797d80;
+}
+
+.social-save {
+  padding: 0.8rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  transform: translateX(0.8rem);
+}
+
+.save:hover .social-save {
+  color: #1d9bf0;
+  background-color: #122835;
+}
+
+.social-share {
+  padding: 0.8rem;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.share:hover .social-share {
+  color: #1d9bf0;
+  background-color: #122835;
+}
+
+.world-icon {
+  max-width: 1.8rem;
+  max-height: 1.8rem;
+  transform: translateY(-0.3rem);
+}
+
+.tweet-lnk:link,
+.tweet-lnk:visited {
+  text-decoration: none;
+  color: #1d9bf0;
+  transition: all 0.2s;
+}
+
+.tweet-lnk:hover,
+.tweet-lnk:active {
+  text-decoration: underline;
+}
+
+.tweet {
+  border-bottom: 0.05px solid #fff;
+  border-color: rgb(83, 100, 113);
+}
+
+/***************************/
+/* SEARCH SECTION */
+/***************************/
+.section-search {
+  align-self: stretch;
+  justify-self: stretch;
+  padding: 0.5rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 100rem;
+  background-color: #202327;
+}
+
+.search-icon {
+  color: #71767b;
+  padding: 1.1rem 0 1.1rem 2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  --ionicon-stroke-width: 4rem;
+}
+
+.input-search {
+  border: none;
+  background: none;
+  width: 100%;
+  height: 100%;
+  padding: 1.1rem 0 1.1rem 1.1rem;
+  border-radius: 100rem;
+  background-color: #202327;
+}
+
+.input-search::placeholder {
+  color: #71767b;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Might like */
+.might-like {
+  border: 0.05px solid #fff;
+  border-color: rgb(83, 100, 113);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.header-seacrh-section {
+  font-size: 2rem;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.might-like-pages {
+  cursor: pointer;
+}
+
+.user-like {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.3rem;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.user-like:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.user-img-like {
+  width: 4.1rem;
+  height: 4.1rem;
+  border-radius: 100%;
+}
+
+.name-id-like {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.user-name-like {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.user-name-like:link,
+.user-name-like:visited {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.user-name-like:hover,
+.user-name-like:active {
+  text-decoration: underline;
+}
+
+.user-id-like {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #797d80;
+}
+
+.follow-like {
+  margin-left: auto;
+}
+
+.follow-like:link,
+.follow-like:visited {
+  text-decoration: none;
+  color: #33383b;
+  background-color: #eff3f4;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.8rem 1.7rem;
+  border-radius: 100rem;
+}
+
+.github-logo {
+  border-radius: 0.2rem;
+}
+
+.show-more {
+  display: block;
+}
+
+.show-more:link,
+.show-more:visited {
+  text-decoration: none;
+  color: #1d9bf0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 2rem;
+  transition: all 0.2s;
+}
+
+.show-more:hover,
+.show-more:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Trends */
+.trends {
+  border: 0.05px solid #fff;
+  border-color: rgb(83, 100, 113);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.trends-list {
+  cursor: pointer;
+}
+
+.trend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem;
+  font-family: "Work Sans", sans-serif;
+  transition: all 0.2s;
+}
+
+.trend:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.trend-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.topic {
+  font-size: 1.2rem;
+  color: #797d80;
+}
+
+.tweet-trend {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.posts-trend {
+  font-size: 1.2rem;
+  color: #797d80;
+}
+
+/***************************/
+/* MESSAGES SECTION */
+/***************************/
+.section-messages {
+  position: absolute;
+  bottom: -0.05rem;
+  right: 5rem;
+  width: 40rem;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  border: 0.05px solid #fff;
+  border-color: rgb(44, 49, 51);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  border-radius: 2rem 2rem 0 0;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+}
+
+.messages-header {
+  font-size: 2rem;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+
+.messages-icons {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  padding-right: 1.6rem;
+}
+
+.messages-icon {
+  height: 2.4rem;
+  width: 2.24rem;
+  padding: 0.7rem;
+  border-radius: 100%;
+  transition: all 0.2s;
+}
+
+.messages-icon:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}

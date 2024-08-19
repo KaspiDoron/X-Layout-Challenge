@@ -1,0 +1,239 @@
+/* 
+#FFF * SYSTEMS: * #FFF
+
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 400
+Medium: 
+Semi-bold: 
+Bold: 700 800
+
+- Line hieght:
+Default: 1
+Small: 
+Medium: 
+Large: 
+Pragraph default: 
+
+- Letter spacing:
+
+--- 02 COLORS 
+#1d9bf0 #122835
+#00ba7c #092019
+#f91880 
+
+#f4212e #67070f #190305
+- Primary: 
+- Tints: 
+- Shades: rgba(255, 255, 255, 0.08); rgb(83, 100, 113);
+- Accents:
+- Grays: #797d80 #4a4e51 #71767b #202327 #33383b #eff3f4 #424242 #8d8d8d #808080
+
+--- 03 SACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+--- 04 SHADOWS
+  box-shadow: 
+
+--- 05 BORDER RADIUS
+Default: 
+Medium: 
+
+--- 06 WHITESPACE
+
+*/
+
+/***************************/
+/* AUTO RESAT */
+/***************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Percentage of user's browser font-size setting
+  10px / 16 = 0.625 = 62.5% */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  background-color: black;
+  overflow: hidden;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 27rem 60rem 42rem;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 35rem;
+}
+
+/***************************/
+/* GENERAL REUSABLE COMPONENTS */
+/***************************/
+.notification {
+  padding: 0.3rem 0.4rem;
+  border-radius: 150%;
+  background-color: #1d9bf0;
+  font-size: 0.8rem;
+  box-shadow: 0 0 0 1px rgb(0, 0, 0);
+  font-weight: 600;
+  transition: all 0.1s;
+
+  position: absolute;
+  top: -0.3rem;
+  left: 2.6rem;
+}
+
+.icon {
+  color: inherit;
+  width: 2rem;
+  height: 2rem;
+}
+
+.user:link,
+.user:visited {
+  text-decoration: none;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 1.2rem 1.6rem;
+  margin-right: 0.8rem;
+  border-radius: 150rem;
+  transition: all 0.2s;
+}
+
+.user:hover,
+.user:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.user-img {
+  border-radius: 150%;
+  width: 17%;
+}
+
+.name-id {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.user-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.user-name span {
+  font-family: "Arimo", sans-serif;
+  font-weight: 800;
+}
+
+.user-id {
+  color: #797d80;
+  font-size: 1.4rem;
+}
+
+.yellow-tick {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.blue-tick {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+/***************************/
+/* HELPER CLASSES */
+/***************************/
+.padding-top {
+  padding-top: 1rem;
+}
+
+.padding-bottom {
+  padding-bottom: 0.6rem;
+}
+
+.flex {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.adjust-logo {
+  height: 4.1rem;
+  width: 4.1rem;
+}
+
+.more-adjust {
+  top: 1rem;
+}
+
+.more-btn-reset {
+  position: unset;
+  align-self: self-start;
+}
+
+.scrollbar-container {
+  position: absolute;
+  right: 0.1rem;
+  top: 0;
+  height: 100%;
+  width: 1.7rem;
+  background-color: #424242;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollbar-icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.up {
+  color: #999898;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.34rem;
+}
+
+.down {
+  color: #e6e6e6;
+  padding-top: 0.1rem;
+  position: absolute;
+  bottom: 0;
+  right: -0.34rem;
+  cursor: unset;
+  width: 100%;
+}
+
+.scrollbar-block {
+  position: absolute;
+  top: 2rem;
+  right: 0.251555rem;
+  padding: 5rem 0.65rem;
+  background-color: #6e6e6e;
+}
+
+.scrollbar-block:hover {
+  background-color: #888;
+}
