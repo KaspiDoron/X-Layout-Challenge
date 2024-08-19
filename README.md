@@ -49,6 +49,7 @@ You can simply double-click on the index.html file or use a local server to view
 *Styling 🎨*: Modify the CSS files in the css directory to change the look and feel of the profile.
 *Adding Posts 📝*: Add or remove posts by editing the corresponding HTML elements in the index.html file.
 
+   ```bash
 twitter-like-profile/
 │
 ├── css/
