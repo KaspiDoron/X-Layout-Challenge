@@ -69,7 +69,7 @@ body {
   font-weight: 400;
   color: #fff;
   background-color: black;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .page-container {
@@ -80,6 +80,10 @@ body {
   justify-content: center;
   margin: 0 auto;
   padding: 0 35rem;
+}
+
+p {
+  display: inline;
 }
 
 /***************************/
@@ -164,6 +168,10 @@ body {
 /***************************/
 /* HELPER CLASSES */
 /***************************/
+.hidden {
+  display: none;
+}
+
 .padding-top {
   padding-top: 1rem;
 }

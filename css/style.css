@@ -95,6 +95,11 @@
   background-color: #166da7;
 }
 
+.post-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
 .user-icon {
   color: #fff;
   width: 1.4rem;
@@ -1006,4 +1011,39 @@
 
 .messages-icon:hover {
   background-color: rgba(255, 255, 255, 0.08);
+}
+
+/***************************/
+/* MOBILE MENU SECTION */
+/***************************/
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 1rem 1.6rem;
+  border-radius: 10rem;
+  border: 1px solid rgb(83, 100, 113);
+  transition: all 0.2s;
+
+  align-self: start;
+  justify-self: end;
+  margin: 2.4rem;
+
+  position: relative;
+}
+
+.mobile-nav-icon {
+  font-size: 3rem;
+}
+
+.open-mobile-nav-icon {
+  position: absolute;
+  right: 1.6rem;
+}
+
+.mobile-nav:hover,
+.mobile-nav:active {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
 }
